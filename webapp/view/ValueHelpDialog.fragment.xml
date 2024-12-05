@@ -1,0 +1,25 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <SelectDialog
+        id="selectDialog"
+        noDataText="No Name Found"
+        title="Select a Name"
+        liveChange=".onLiveSearch"
+        searchPlaceholder="Search Products"
+        confirm=".onValueHelpDialogClose"
+        cancel=".onValueHelpDialogClose"
+        showClearButton="true"
+        items="{
+            path: '/ProductCollection',
+            sorter: {
+                path: 'Name',
+                descending: false
+            }
+        }">
+        <StandardListItem
+            selected="{selected}"
+            title="{Name}"
+            type="Active" />
+    </SelectDialog>
+</core:FragmentDefinition>

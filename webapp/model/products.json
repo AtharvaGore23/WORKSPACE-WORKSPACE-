@@ -1,0 +1,9 @@
+{
+    "ProductCollection": [
+        { "Name": "Astro Phone 6", "Price": 799,"Year":2001,"Company":"Astro" },
+        { "Name": "Galaxy S21", "Price": 999,"Year":2002,"Company":"Samsung" },
+        { "Name": "iPhone 13", "Price": 1099,"Year":2003,"Company":"Apple" },
+        { "Name": "OnePlus 9", "Price": 729,"Year":2004,"Company":"OnePlus" },
+        { "Name": "Xiaomi Mi 11", "Price": 699,"Year":2005,"Company":"MI" }
+    ]
+}
